@@ -1,0 +1,40 @@
+import React, { useState } from 'react';
+import { auth, RecaptchaVerifier, signInWithPhoneNumber } from './firebase';
+
+function Index() {
+  const [phoneNumber, setPhoneNumber] = useState('');
+
+  const handlePhoneChange = (event) => {
+    setPhoneNumber(event.target.value);
+  };
+
+  const handleFormSubmit = (event) => {
+    event.preventDefault();
+
+    const recaptcha = new RecaptchaVerifier('recaptcha-container', {
+      size: 'invisible',
+    });
+
+    conasignInWithPhoneNumber(auth, phoneNumber, recaptcha)
+      .then((confirmationResult) => {
+        const code = window.prompt('Enter verification code');
+        confirmationResult.confirm(code);
+      })
+      .catch((error) => {
+        console.error(error);
+      });
+  };
+
+  return (
+    <div>
+      <form onSubmit={handleFormSubmit}>
+        <label htmlFor="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" value={phoneNumber} onChange={handlePhoneChange} required />
+        <button type="submit">Send Verification Code</button>
+      </form>
+      <div id="recaptcha-container"></div>
+    </div>
+  );
+}
+
+export default Index;

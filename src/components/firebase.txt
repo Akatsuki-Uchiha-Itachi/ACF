@@ -1,0 +1,17 @@
+
+import firebase from 'firebase/app';
+
+const firebaseConfig = {
+    apiKey: "AIzaSyD1pGZdsO4AAEeGqKbmIGB68po4fRU2D0s",
+    authDomain: "acf-project-8f85b.firebaseapp.com",
+    projectId: "acf-project-8f85b",
+    storageBucket: "acf-project-8f85b.appspot.com",
+    messagingSenderId: "239665804855",
+    appId: "1:239665804855:web:26b844ed3380ff804a31b2"
+};
+
+firebase.initializeApp(firebaseConfig);
+
+const db = firebase.firestore();
+
+export {db};

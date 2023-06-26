@@ -1,0 +1,41 @@
+import React, { useState } from 'react';
+
+function Textform(props) {
+    const handleClick = () => {
+        console.log("Uppercase was clicked" + text);
+        if (btnText === 'Convert to UpperCase') {
+            let newText = text.toUpperCase();
+            setText(newText);
+            setBtnText('Convert to LowerCase');
+            props.showAlert("Converted to UpperCase","success");
+        }
+        else {
+            let newText = text.toLowerCase();
+            setText(newText);
+            setBtnText('Convert to UpperCase');
+            props.showAlert("Converted to LowerCase","success");
+        }
+    }
+    const handleOnChange = (event) => {
+        console.log("On change");
+        setText(event.target.value);
+    }
+    const [text, setText] = useState('');
+    const [btnText, setBtnText] = useState('Convert to UpperCase');
+    return (
+        <div className='container' >
+            <div className='container'>
+                <h1 style={{color: props.mode === 'light'?'black':'white'}}>{props.text}</h1>
+                <div className="mb-3">
+                    <textarea className="form-control" value={text} onChange={handleOnChange} style={{backgroundColor: props.mode === 'light'?'white':'#004e7d', color: props.mode ==='light'?'black':'white'}} id="Box" rows="8"></textarea>
+                </div>
+                <button className="btn btn-primary" onClick={handleClick}>{btnText}</button>
+            </div>
+            <div className="container my-3" style={{color: props.mode === 'light'?'black':'white'}}>
+                <p> {text.split(" ").length} words, {text.length} characters</p>
+            </div>
+        </div>
+    );
+}
+
+export default Textform;

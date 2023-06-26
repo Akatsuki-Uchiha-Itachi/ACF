@@ -1,0 +1,201 @@
+dashboard:1 
+        
+       Error while trying to use the following icon from the Manifest: http://localhost:3000/logo192.png (Download error or resource isn't a valid image)
+router.js:906 
+        
+       No routes matched location "/admin/dashboard" 
+warning @ router.js:906
+useRoutes @ index.js:502
+Routes @ index.js:1123
+renderWithHooks @ react-dom.development.js:14141
+mountIndeterminateComponent @ react-dom.development.js:17432
+beginWork @ react-dom.development.js:18728
+beginWork$1 @ react-dom.development.js:23691
+performUnitOfWork @ react-dom.development.js:22960
+workLoopSync @ react-dom.development.js:22883
+renderRootSync @ react-dom.development.js:22856
+performConcurrentWorkOnRoot @ react-dom.development.js:22250
+workLoop @ scheduler.development.js:227
+flushWork @ scheduler.development.js:205
+performWorkUntilDeadline @ scheduler.development.js:442
+run @ setImmediate.js:39
+runIfPresent @ setImmediate.js:67
+onGlobalMessage @ setImmediate.js:104
+postMessage (async)
+registerImmediate @ setImmediate.js:113
+setImmediate @ setImmediate.js:28
+schedulePerformWorkUntilDeadline @ scheduler.development.js:472
+requestHostCallback @ scheduler.development.js:493
+unstable_scheduleCallback @ scheduler.development.js:370
+scheduleCallback$1 @ react-dom.development.js:23785
+ensureRootIsScheduled @ react-dom.development.js:22204
+scheduleUpdateOnFiber @ react-dom.development.js:22067
+updateContainer @ react-dom.development.js:24923
+push../node_modules/react-dom/cjs/react-dom.development.js.ReactDOMHydrationRoot.render.ReactDOMRoot.render @ react-dom.development.js:25299
+./src/index.js @ index.js:12
+__webpack_require__ @ bootstrap:787
+fn @ bootstrap:150
+0 @ reportWebVitals.js:13
+__webpack_require__ @ bootstrap:787
+checkDeferredModules @ bootstrap:45
+webpackJsonpCallback @ bootstrap:32
+(anonymous) @ main.chunk.js:1
+webpackHotDevClient.js:115 
+        
+       ./src/components/Char.js
+  Line 12:  Redundant alt attribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specified custom words) in the alt prop  jsx-a11y/img-redundant-alt
+printWarnings @ webpackHotDevClient.js:115
+handleWarnings @ webpackHotDevClient.js:132
+push../node_modules/react-dev-utils/webpackHotDevClient.js.connection.onmessage @ webpackHotDevClient.js:184
+push../node_modules/sockjs-client/lib/event/eventtarget.js.EventTarget.dispatchEvent @ eventtarget.js:47
+(anonymous) @ main.js:248
+push../node_modules/sockjs-client/lib/main.js.SockJS._transportMessage @ main.js:246
+push../node_modules/sockjs-client/lib/event/emitter.js.EventEmitter.emit @ emitter.js:41
+WebSocketTransport.ws.onmessage @ websocket.js:29
+webpackHotDevClient.js:115 
+        
+       ./src/components/Firestore.js
+  Line 1:  'addDoc' is defined but never used                 no-unused-vars
+  Line 1:  'doc' is defined but never used                    no-unused-vars
+  Line 1:  'setDoc' is defined but never used                 no-unused-vars
+  Line 7:  'myCollection' is assigned a value but never used  no-unused-vars
+printWarnings @ webpackHotDevClient.js:115
+handleWarnings @ webpackHotDevClient.js:132
+push../node_modules/react-dev-utils/webpackHotDevClient.js.connection.onmessage @ webpackHotDevClient.js:184
+push../node_modules/sockjs-client/lib/event/eventtarget.js.EventTarget.dispatchEvent @ eventtarget.js:47
+(anonymous) @ main.js:248
+push../node_modules/sockjs-client/lib/main.js.SockJS._transportMessage @ main.js:246
+push../node_modules/sockjs-client/lib/event/emitter.js.EventEmitter.emit @ emitter.js:41
+WebSocketTransport.ws.onmessage @ websocket.js:29
+webpackHotDevClient.js:115 
+        
+       ./src/components/Home.js
+  Line 2:  'getFirestore' is defined but never used  no-unused-vars
+  Line 2:  'collection' is defined but never used    no-unused-vars
+  Line 2:  'doc' is defined but never used           no-unused-vars
+  Line 2:  'getDoc' is defined but never used        no-unused-vars
+printWarnings @ webpackHotDevClient.js:115
+handleWarnings @ webpackHotDevClient.js:132
+push../node_modules/react-dev-utils/webpackHotDevClient.js.connection.onmessage @ webpackHotDevClient.js:184
+push../node_modules/sockjs-client/lib/event/eventtarget.js.EventTarget.dispatchEvent @ eventtarget.js:47
+(anonymous) @ main.js:248
+push../node_modules/sockjs-client/lib/main.js.SockJS._transportMessage @ main.js:246
+push../node_modules/sockjs-client/lib/event/emitter.js.EventEmitter.emit @ emitter.js:41
+WebSocketTransport.ws.onmessage @ websocket.js:29
+webpackHotDevClient.js:115 
+        
+       ./src/components/utils.js
+  Line 2:  'getDoc' is defined but never used    no-unused-vars
+  Line 4:  'useState' is defined but never used  no-unused-vars
+  Line 72:  Block is redundant                    no-lone-blocks
+printWarnings @ webpackHotDevClient.js:115
+handleWarnings @ webpackHotDevClient.js:132
+push../node_modules/react-dev-utils/webpackHotDevClient.js.connection.onmessage @ webpackHotDevClient.js:184
+push../node_modules/sockjs-client/lib/event/eventtarget.js.EventTarget.dispatchEvent @ eventtarget.js:47
+(anonymous) @ main.js:248
+push../node_modules/sockjs-client/lib/main.js.SockJS._transportMessage @ main.js:246
+push../node_modules/sockjs-client/lib/event/emitter.js.EventEmitter.emit @ emitter.js:41
+WebSocketTransport.ws.onmessage @ websocket.js:29
+webpackHotDevClient.js:115 
+        
+       ./src/components/Dashboard.js
+  Line 3:   'formatString' is defined but never used                                                                                                                                                         no-unused-vars
+  Line 21:  'searchQuery' is assigned a value but never used                                                                                                                                                 no-unused-vars
+  Line 21:  'setSearchQuery' is assigned a value but never used                                                                                                                                              no-unused-vars
+  Line 80:   Redundant alt attribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specified custom words) in the alt prop  jsx-a11y/img-redundant-alt
+printWarnings @ webpackHotDevClient.js:115
+handleWarnings @ webpackHotDevClient.js:132
+push../node_modules/react-dev-utils/webpackHotDevClient.js.connection.onmessage @ webpackHotDevClient.js:184
+push../node_modules/sockjs-client/lib/event/eventtarget.js.EventTarget.dispatchEvent @ eventtarget.js:47
+(anonymous) @ main.js:248
+push../node_modules/sockjs-client/lib/main.js.SockJS._transportMessage @ main.js:246
+push../node_modules/sockjs-client/lib/event/emitter.js.EventEmitter.emit @ emitter.js:41
+WebSocketTransport.ws.onmessage @ websocket.js:29
+webpackHotDevClient.js:112 
+        
+       There were more warnings in other files.
+You can find a complete log in the terminal.
+printWarnings @ webpackHotDevClient.js:112
+handleWarnings @ webpackHotDevClient.js:132
+push../node_modules/react-dev-utils/webpackHotDevClient.js.connection.onmessage @ webpackHotDevClient.js:184
+push../node_modules/sockjs-client/lib/event/eventtarget.js.EventTarget.dispatchEvent @ eventtarget.js:47
+(anonymous) @ main.js:248
+push../node_modules/sockjs-client/lib/main.js.SockJS._transportMessage @ main.js:246
+push../node_modules/sockjs-client/lib/event/emitter.js.EventEmitter.emit @ emitter.js:41
+WebSocketTransport.ws.onmessage @ websocket.js:29
+Dashboard.js:45 name: B
+Dashboard.js:47 
+index.js:1210 
+        
+       Warning: A component is changing a controlled input to be uncontrolled. This is likely caused by the value changing from a defined to undefined, which should not happen. Decide between using a controlled or uncontrolled input element for the lifetime of the component. More info: https://reactjs.org/link/controlled-components
+    at input
+    at div
+    at form
+    at div
+    at div
+    at div
+    at Dashboard (http://localhost:3000/static/js/main.chunk.js:497:73)
+    at RenderedRoute (http://localhost:3000/static/js/1.chunk.js:88686:27)
+    at Routes (http://localhost:3000/static/js/1.chunk.js:89174:24)
+    at Router (http://localhost:3000/static/js/1.chunk.js:89104:30)
+    at BrowserRouter (http://localhost:3000/static/js/1.chunk.js:87250:23)
+    at App
+console.<computed> @ index.js:1210
+overrideMethod @ react_devtools_backend.js:2655
+printWarning @ react-dom.development.js:74
+error @ react-dom.development.js:51
+updateWrapper @ react-dom.development.js:1639
+updateProperties @ react-dom.development.js:8931
+commitUpdate @ react-dom.development.js:9701
+commitMutationEffectsOnFiber @ react-dom.development.js:21092
+recursivelyTraverseMutationEffects @ react-dom.development.js:20992
+commitMutationEffectsOnFiber @ react-dom.development.js:21055
+recursivelyTraverseMutationEffects @ react-dom.development.js:20992
+commitMutationEffectsOnFiber @ react-dom.development.js:21055
+recursivelyTraverseMutationEffects @ react-dom.development.js:20992
+commitMutationEffectsOnFiber @ react-dom.development.js:21055
+recursivelyTraverseMutationEffects @ react-dom.development.js:20992
+commitMutationEffectsOnFiber @ react-dom.development.js:21055
+recursivelyTraverseMutationEffects @ react-dom.development.js:20992
+commitMutationEffectsOnFiber @ react-dom.development.js:21055
+recursivelyTraverseMutationEffects @ react-dom.development.js:20992
+commitMutationEffectsOnFiber @ react-dom.development.js:21010
+recursivelyTraverseMutationEffects @ react-dom.development.js:20992
+commitMutationEffectsOnFiber @ react-dom.development.js:21245
+recursivelyTraverseMutationEffects @ react-dom.development.js:20992
+commitMutationEffectsOnFiber @ react-dom.development.js:21010
+recursivelyTraverseMutationEffects @ react-dom.development.js:20992
+commitMutationEffectsOnFiber @ react-dom.development.js:21010
+recursivelyTraverseMutationEffects @ react-dom.development.js:20992
+commitMutationEffectsOnFiber @ react-dom.development.js:21245
+recursivelyTraverseMutationEffects @ react-dom.development.js:20992
+commitMutationEffectsOnFiber @ react-dom.development.js:21245
+recursivelyTraverseMutationEffects @ react-dom.development.js:20992
+commitMutationEffectsOnFiber @ react-dom.development.js:21010
+recursivelyTraverseMutationEffects @ react-dom.development.js:20992
+commitMutationEffectsOnFiber @ react-dom.development.js:21010
+recursivelyTraverseMutationEffects @ react-dom.development.js:20992
+commitMutationEffectsOnFiber @ react-dom.development.js:21010
+recursivelyTraverseMutationEffects @ react-dom.development.js:20992
+commitMutationEffectsOnFiber @ react-dom.development.js:21128
+commitMutationEffects @ react-dom.development.js:20968
+commitRootImpl @ react-dom.development.js:23175
+commitRoot @ react-dom.development.js:23066
+performSyncWorkOnRoot @ react-dom.development.js:22575
+flushSyncCallbacks @ react-dom.development.js:10573
+flushSync @ react-dom.development.js:22652
+finishEventHandler @ react-dom.development.js:3569
+batchedUpdates @ react-dom.development.js:3584
+dispatchEventForPluginEventSystem @ react-dom.development.js:8197
+dispatchEventWithEnableCapturePhaseSelectiveHydrationWithoutDiscreteEventReplay @ react-dom.development.js:5703
+dispatchEvent @ react-dom.development.js:5697
+dispatchDiscreteEvent @ react-dom.development.js:5674
+utils.js:49 (3) [{…}, {…}, {…}]
+Dashboard.js:45 name: Bo
+Dashboard.js:47 undefined
+utils.js:49 [{…}]
+utils.js:58 {imgurl: 'https://practicaltyping.com/wp-content/uploads/2019/01/hancock.png', character_name: 'Boa', feats: 'High-level Warlord', description: 'Boa Hancock is a character in the manga and anime …r a fan-favorite among viewers and readers alike.', anime_name: 'One Piece', …}
+Dashboard.js:45 name: Boa
+Dashboard.js:47 undefined
+utils.js:49 [{…}]0: anime_name: "One Piece"character_name: "Boa"description: "Boa Hancock is a character in the manga and anime series One Piece. She is the captain of the Kuja Pirates and is known as the \"Snake Princess\" due to her ability to turn people into stone by using her devil fruit power.\n\nHancock is a tall and beautiful woman with long black hair and a curvaceous figure. She is known for her pride and haughty demeanor, and she has a habit of turning her nose up at people she deems unworthy of her attention.\n\nDespite her arrogant exterior, Hancock is a complex and multi-dimensional character. She has a tragic past and has endured many hardships in her life, including being enslaved as a child and forced to become a slave in the Celestial Dragons' palace. Her experiences have left her with a deep hatred for men and a fierce loyalty to her fellow Amazonian women.\n\nThroughout the series, Hancock becomes a key ally to the protagonist, Monkey D. Luffy, and his crew. She develops romantic feelings for Luffy, although she is initially resistant to his advances due to her own emotional baggage.\n\nOverall, Boa Hancock is a popular and influential character in the world of One Piece. Her complex personality and backstory, as well as her unique abilities, have made her a fan-favorite among viewers and readers alike."feats: "High-level Warlord"id: "Boa"imgurl: "https://practicaltyping.com/wp-content/uploads/2019/01/hancock.png"powers: "Devil Fruit, Haki"stand_level: "35"[[Prototype]]: Objectlength: 1[[Prototype]]: Array(0)at: ƒ at()concat: ƒ concat()constructor: ƒ Array()copyWithin: ƒ copyWithin()entries: ƒ entries()every: ƒ every()fill: ƒ fill()filter: ƒ filter()find: ƒ find()findIndex: ƒ findIndex()findLast: ƒ findLast()findLastIndex: ƒ findLastIndex()flat: ƒ flat()flatMap: ƒ flatMap()forEach: ƒ forEach()includes: ƒ includes()indexOf: ƒ indexOf()join: ƒ join()keys: ƒ keys()lastIndexOf: ƒ lastIndexOf()length: 0map: ƒ map()pop: ƒ pop()push: ƒ push()reduce: ƒ reduce()reduceRight: ƒ reduceRight()reverse: ƒ reverse()shift: ƒ shift()slice: ƒ slice()some: ƒ some()sort: ƒ sort()splice: ƒ splice()toLocaleString: ƒ toLocaleString()toReversed: ƒ toReversed()toSorted: ƒ toSorted()toSpliced: ƒ toSpliced()toString: ƒ toString()unshift: ƒ unshift()values: ƒ values()with: ƒ with()Symbol(Symbol.iterator): ƒ values()Symbol(Symbol.unscopables): {at: true, copyWithin: true, entries: true, fill: true, find: true, …}[[Prototype]]: Object
+utils.js:58 {imgurl: 'https://practicaltyping.com/wp-content/uploads/2019/01/hancock.png', character_name: 'Boa', feats: 'High-level Warlord', description: 'Boa Hancock is a character in the manga and anime …r a fan-favorite among viewers and readers alike.', anime_name: 'One Piece', …}
